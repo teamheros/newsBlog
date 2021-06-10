@@ -1,0 +1,58 @@
+.home__page {
+    height: 87vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .login__message {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login__message > h2 {
+    font-size: 50px;
+    margin: 0;
+  }
+  
+  .login__message > h1 {
+    font-size: 50px;
+    width: 80%;
+    line-height: 1em;
+    margin: 10px auto;
+    margin-top: 0;
+    font-weight: 900;
+    letter-spacing: -4px;
+    color: rgb(17, 17, 17);
+    text-decoration: underline;
+  }
+  
+  .login__message > p {
+    padding: 15px 0;
+    line-height: 1.5em;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+  }
+  
+  .login__button {
+    width: 50%;
+    margin: 40px auto 0px auto;
+    padding: 10px 0;
+    border: none;
+    border-radius: 50px;
+    background: rgb(156, 191, 243);
+    font-family: "Inter";
+    color: rgb(31, 27, 27);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .login__button:hover{
+      background-color: green;
+      color:white;
+  }
